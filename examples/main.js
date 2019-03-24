@@ -7,9 +7,11 @@ import DemoBlock from './components/demo-block.vue'
 //import install from '../src/index'
 //install(Vue);
 import qiucodeUI from '../src/index'
-import '../src/qiu-style/index.css'
+//import '../src/qiu-style/index.css'
 //import qiucodeUI from '../src'
-//import '../src/qiu-style/iconfont.css'
+import '../src/qiu-style/button.css'
+import '../src/qiu-style/iconfont.css'
+import '../src/qiu-style/tag.css'
 
 //"build": "webpack --display-error-details --config build/webpack.config.dist.js"
 //---- "build": "node build/build.js"

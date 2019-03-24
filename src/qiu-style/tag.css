@@ -1,0 +1,97 @@
+.qiu-tag {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin: 2px 4px 2px 0;
+    padding: 0 8px;
+    border: 1px solid #e8eaec;
+    border-radius: 3px;
+    background: #f7f7f7;
+    font-size: 12px;
+    vertical-align: middle;
+    opacity: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+.qiu-tag .icon-close {
+    display: inline-block;
+    font-size: 1px;
+    -webkit-transform: scale(1.42857143) rotate(0);
+    transform: scale(1.42857143) rotate(0);
+    cursor: pointer;
+    margin-left: 2px;
+    color: #666;
+    opacity: .66;
+    position: relative;
+    top: -1px;
+}
+.qiu-tag-border {
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #e8eaec;
+    color: #e8eaec;
+    background: #fff!important;
+}
+.qiu-tag-border.qiu-tag-primary {
+    color: #2d8cf0!important;
+    border: 1px solid #2d8cf0!important;
+}
+.qiu-tag-primary {
+    background: #2d8cf0;
+    color:#fff;
+}
+.qiu-tag-border.qiu-tag-success {
+    color: #19be6b!important;
+    border: 1px solid #19be6b!important;
+}
+.qiu-tag-success {
+    background: #19be6b;
+    color:#fff;
+}
+.qiu-tag-border.qiu-tag-error {
+    color: #ed4014!important;
+    border: 1px solid #ed4014!important;
+}
+.qiu-tag-error {
+    background: #ed4014;
+    color:#fff;
+}
+.qiu-tag-border.qiu-tag-warning {
+    color: #f90!important;
+    border: 1px solid #f90!important;
+}
+.qiu-tag-warning{
+    background: #f90;
+    color:#fff;
+}
+
+.qiu-tag-red {
+    line-height: 20px;
+    background: #fff1f0;
+    border-color: #ffa39e;
+    color: #f5222d!important;
+}
+.qiu-tag-green {
+    line-height: 20px;
+    background: #f6ffed;
+    border-color: #b7eb8f;
+    color: #52c41a!important;
+}
+.qiu-tag-yellow {
+    line-height: 20px;
+    background: #feffe6;
+    border-color: #fffb8f;
+    color: #fadb14!important;
+}
+.qiu-tag-orange {
+    line-height: 20px;
+    background: #fff7e6;
+    border-color: #ffd591;
+    color: #fa8c16!important;
+}
+.qiu-tag-blue {
+    line-height: 20px;
+    background: #e6f7ff;
+    border-color: #91d5ff;
+    color: #1890ff!important;
+}

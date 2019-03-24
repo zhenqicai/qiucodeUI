@@ -13,10 +13,14 @@ import WLoadingBar from './components/loading-bar/index'
 import Skeleton from './components/skeleton/index'
 
 import QiuButton from './components/qiu-button/index';
+import QiuIcon from './components/qiu-icon/index';
+import QiuTag from './components/qiu-tag/index';
 
 const components = [
   Skeleton,
-  QiuButton
+  QiuButton,
+  QiuIcon,
+  QiuTag
 ]
 
 const install = function(Vue) {
